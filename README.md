@@ -28,3 +28,5 @@ Empty folders hold a `.gitkeep` file so Git keeps them.
 | poster | New Year Party (1 page, 2700x3600) | new year, party, holiday, dark, gold |
 | presentation | Business Pitch (5 pages, 1920x1080) | business, corporate, startup, modern, minimal |
 | presentation | School Project (5 pages, 1920x1080) | school, education, kids, project, colorful |
+| resume | Modern Resume (1 page, 2480x3508) | resume, cv, job, professional, modern |
+| resume | Classic Resume (1 page, 2480x3508) | resume, cv, job, professional, simple, minimal |

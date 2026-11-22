@@ -125,6 +125,43 @@
       "bytes": 1453085,
       "sha256": "a9eea8682ed4e56f65a2825823ed221c118375584cf7ad7ed33e714369f8d8b5",
       "added": "2026-11-22"
+    },
+    {
+      "id": "modern-resume",
+      "type": "resume",
+      "name": "Modern Resume",
+      "keywords": [
+        "resume",
+        "cv",
+        "job",
+        "professional",
+        "modern"
+      ],
+      "pages": 1,
+      "width": 2480,
+      "height": 3508,
+      "bytes": 2438396,
+      "sha256": "d4c9673b0125151e475621d9ce5a0b5414fbc2e994dbeafcaa3591abaae1c796",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "classic-resume",
+      "type": "resume",
+      "name": "Classic Resume",
+      "keywords": [
+        "resume",
+        "cv",
+        "job",
+        "professional",
+        "simple",
+        "minimal"
+      ],
+      "pages": 1,
+      "width": 2480,
+      "height": 3508,
+      "bytes": 1571701,
+      "sha256": "02021889e59dd547467459ca153be70b0231aa4c213b27e4a435983b2b536c8e",
+      "added": "2026-11-22"
     }
   ],
   "elements": [],
