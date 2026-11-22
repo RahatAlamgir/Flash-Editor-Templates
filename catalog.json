@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "updated": "2026-11-22",
+  "templates": [
+    {
+      "id": "summer-music-festival",
+      "type": "poster",
+      "name": "Summer Music Festival",
+      "keywords": [
+        "music",
+        "summer",
+        "festival",
+        "party",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 2700,
+      "height": 3600,
+      "bytes": 920916,
+      "sha256": "63f512e3b64d900676ab40aaf152f9f553220b405c0cd3975db7d50ee492377f",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "mega-sale",
+      "type": "poster",
+      "name": "Mega Sale",
+      "keywords": [
+        "sale",
+        "business",
+        "shop",
+        "fashion",
+        "red"
+      ],
+      "pages": 1,
+      "width": 2700,
+      "height": 3600,
+      "bytes": 781830,
+      "sha256": "60fa1b2ad98dafceacac504352ef8c72c9b1ccc79767800535d5dc1d3c9dba5a",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "art-exhibition",
+      "type": "poster",
+      "name": "Art Exhibition",
+      "keywords": [
+        "art",
+        "gallery",
+        "minimal",
+        "modern"
+      ],
+      "pages": 1,
+      "width": 2700,
+      "height": 3600,
+      "bytes": 690347,
+      "sha256": "f3f4e2ade613ef4945a1eef4539f8ee7edf8cce3b7ff0dae18de0910784bda39",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "back-to-school",
+      "type": "poster",
+      "name": "Back to School",
+      "keywords": [
+        "school",
+        "education",
+        "kids",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 2700,
+      "height": 3600,
+      "bytes": 1564341,
+      "sha256": "a766de75e27eac1f26cdaf8a57ba361dac372580a1647b0036f206e31e2e891b",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "new-year-party",
+      "type": "poster",
+      "name": "New Year Party",
+      "keywords": [
+        "new year",
+        "party",
+        "holiday",
+        "dark",
+        "gold"
+      ],
+      "pages": 1,
+      "width": 2700,
+      "height": 3600,
+      "bytes": 2206071,
+      "sha256": "585ed24896ba9a23e5f066410a94b55d147bd13ca6975dff7ea47557a21b2d8f",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "business-pitch",
+      "type": "presentation",
+      "name": "Business Pitch",
+      "keywords": [
+        "business",
+        "corporate",
+        "startup",
+        "modern",
+        "minimal"
+      ],
+      "pages": 5,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1472173,
+      "sha256": "26124bf0dbe8ea9c84cc62719c5544024e5b6d4a2eccf487e20a9616a273af4b",
+      "added": "2026-11-22"
+    },
+    {
+      "id": "school-project",
+      "type": "presentation",
+      "name": "School Project",
+      "keywords": [
+        "school",
+        "education",
+        "kids",
+        "project",
+        "colorful"
+      ],
+      "pages": 5,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1453085,
+      "sha256": "a9eea8682ed4e56f65a2825823ed221c118375584cf7ad7ed33e714369f8d8b5",
+      "added": "2026-11-22"
+    }
+  ],
+  "elements": [],
+  "styles": []
+}

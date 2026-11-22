@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "types": [
+    { "id": "youtube-thumbnail", "name": "YouTube thumbnail", "width": 1280, "height": 720,  "pages": "single" },
+    { "id": "presentation",      "name": "Presentation",      "width": 1920, "height": 1080, "pages": "multiple" },
+    { "id": "poster",            "name": "Poster",            "width": 2700, "height": 3600, "pages": "single" },
+    { "id": "card",              "name": "Card",              "width": 1050, "height": 600,  "pages": "single" },
+    { "id": "instagram-post",    "name": "Instagram post",    "width": 1080, "height": 1080, "pages": "single" },
+    { "id": "story",             "name": "Story",             "width": 1080, "height": 1920, "pages": "single" },
+    { "id": "flyer",             "name": "Flyer",             "width": 2480, "height": 3508, "pages": "single" },
+    { "id": "resume",            "name": "Resume",            "width": 2480, "height": 3508, "pages": "multiple" }
+  ]
+}
