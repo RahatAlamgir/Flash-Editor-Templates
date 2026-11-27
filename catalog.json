@@ -281,6 +281,146 @@
       "bytes": 45919,
       "sha256": "4d705a6206c09fc681ba1ae43824005985a1396140e5dd5310fb0d564e5e24b1",
       "added": "2026-11-27"
+    },
+    {
+      "id": "burger-challenge",
+      "type": "youtube-thumbnail",
+      "name": "Burger Challenge",
+      "keywords": [
+        "food",
+        "red",
+        "dark",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1410230,
+      "sha256": "49e8cb28005c38bdc4c261462c9d9b4a8dfee578bab3ac4659fad512377bb151",
+      "added": "2026-11-27",
+      "credits": [
+        "Hamburger (black bg).jpg - Len Rizzi (photographer, original image), reprocessed by Off-shell, Public domain, https://commons.wikimedia.org/wiki/File:Hamburger_(black_bg).jpg"
+      ]
+    },
+    {
+      "id": "hidden-lake-vlog",
+      "type": "youtube-thumbnail",
+      "name": "Hidden Lake Vlog",
+      "keywords": [
+        "travel",
+        "holiday",
+        "simple",
+        "modern"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1264993,
+      "sha256": "5ae1fdbf2ca50f92ca244959aed8a65b61761dc3f3b9a9fdbaa19f6980cfb222",
+      "added": "2026-11-27",
+      "credits": [
+        "Lake Mountain Landscape.jpg - Bonnie Moreland, CC0, https://commons.wikimedia.org/wiki/File:Lake_Mountain_Landscape.jpg"
+      ]
+    },
+    {
+      "id": "match-day-live",
+      "type": "youtube-thumbnail",
+      "name": "Match Day Live",
+      "keywords": [
+        "sports",
+        "dark",
+        "red",
+        "modern"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1712900,
+      "sha256": "e3906634c54de438048f554b0fb1602b504e89eae2f153c0256c979941d96605",
+      "added": "2026-11-27",
+      "credits": [
+        "Telstra Stadium at Night.jpg - The original uploader was Alexormes at English Wikipedia., Public domain, https://commons.wikimedia.org/wiki/File:Telstra_Stadium_at_Night.jpg"
+      ]
+    },
+    {
+      "id": "pizza-taste-test",
+      "type": "youtube-thumbnail",
+      "name": "Pizza Taste Test",
+      "keywords": [
+        "food",
+        "red",
+        "colorful",
+        "simple"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1265922,
+      "sha256": "811b257a571b4aac9790f63a4ce858bafbb573a074351a188a6ae92f52bb3872",
+      "added": "2026-11-27",
+      "credits": [
+        "Pizza 17.jpg - Kurt Kaiser, CC0, https://commons.wikimedia.org/wiki/File:Pizza_17.jpg"
+      ]
+    },
+    {
+      "id": "space-gamer",
+      "type": "youtube-thumbnail",
+      "name": "Space Gamer",
+      "keywords": [
+        "gaming",
+        "dark",
+        "tech",
+        "modern"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1110181,
+      "sha256": "f5f095380708f23199a3ec7df2f782f903c8ce51aa1e835a7cc31ea185c273ea",
+      "added": "2026-11-27",
+      "credits": [
+        "Crab Nebula, as Seen by Herschel and Hubble.jpg - ESA/Herschel/PACS/MESS Key Programme Supernova Remnant Team; NASA, ESA and Allison Loll/Jeff Hester (Arizona State University), Public domain, https://commons.wikimedia.org/wiki/File:Crab_Nebula,_as_Seen_by_Herschel_and_Hubble.jpg"
+      ]
+    },
+    {
+      "id": "summer-vibes",
+      "type": "youtube-thumbnail",
+      "name": "Summer Vibes",
+      "keywords": [
+        "summer",
+        "travel",
+        "holiday",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1240155,
+      "sha256": "e8494de32b48878a60c819e868ef5672d41b0ce074cddd27a2f5ad9bbb01f0cd",
+      "added": "2026-11-27",
+      "credits": [
+        "Ginowan Tropical Beach.JPG - Abasaa, Public domain, https://commons.wikimedia.org/wiki/File:Ginowan_Tropical_Beach.JPG"
+      ]
+    },
+    {
+      "id": "tech-review-pro",
+      "type": "youtube-thumbnail",
+      "name": "Tech Review Pro",
+      "keywords": [
+        "tech",
+        "dark",
+        "modern",
+        "gaming"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 1236754,
+      "sha256": "706a6b0597e14f617c4c24702b5db1ba2e69476db76ff345d98cda0a7bfef210",
+      "added": "2026-11-27",
+      "credits": [
+        "Computer-motherboard-pc-wires (23698613303).jpg - www.Pixel.la Free Stock Photos, CC0, https://commons.wikimedia.org/wiki/File:Computer-motherboard-pc-wires_(23698613303).jpg"
+      ]
     }
   ],
   "elements": [],

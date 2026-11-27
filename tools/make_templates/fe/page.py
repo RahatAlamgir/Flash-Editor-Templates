@@ -2,7 +2,9 @@
 
 from PIL import Image
 
+from . import effects as effects_mod
 from . import gradient as gradient_mod
+from . import photo as photo_mod
 from . import shapes as shapes_mod
 from . import text as text_mod
 from .color import rgba, to_json
@@ -69,8 +71,8 @@ class Page:
         self._add(name or str(kind).title(), self._paste(picture, x, y, rotation), obj, opacity)
 
     def text(self, text, x, y, size, color, family="Segoe UI", bold=True, width=None, align="left", rotation=0,
-             name=None, opacity=1.0, outline=0, outline_color="#000000", letter_spacing=0):
-        """x, y: top-left of the text box. width: box width (default: just fits; give it with align="center")."""
+             name=None, opacity=1.0, outline=0, outline_color="#000000", letter_spacing=0, shadow=None):
+        """x, y: top-left of the text box. shadow: (dx, dy, blur, opacity) adds a soft shadow layer under the text. width: box width (default: just fits; give it with align="center")."""
         auto_w, box_h = text_mod.measure(text, family, size, bold, letter_spacing)
         box_w = width or auto_w
         picture, pad = text_mod.draw(text, family, size, bold, color, box_w, box_h, align, outline, outline_color)
@@ -83,3 +85,42 @@ class Page:
         if outline:
             obj["OutlineColor"] = to_json(outline_color)
         self._add(name or text.replace("\n", " ")[:40], self._paste(picture, x - pad, y - pad, rotation), obj, opacity)
+
+    # ---- pictures and effects (plain picture layers: no editable object behind them) ---------------------------------
+    def raster(self, name, picture, x=0, y=0, opacity=1.0, blend="Normal"):
+        """Any RGBA picture as a layer, placed with its top-left at (x, y)."""
+        canvas = Image.new("RGBA", (self.width, self.height), (0, 0, 0, 0))
+        canvas.paste(picture, (round(x), round(y)))
+        self._add(name, canvas, None, opacity, blend)
+
+    def photo(self, image, x=0, y=0, w=None, h=None, focus=(0.5, 0.5), zoom=1.0, name="Photo", contrast=1.0,
+              saturation=1.0, brightness=1.0, blur=0, opacity=1.0, blend="Normal"):
+        """A photo cropped to fill the box (default: the whole page)."""
+        w, h = w or self.width, h or self.height
+        picture = photo_mod.tune(photo_mod.cover(image, w, h, focus, zoom), contrast, saturation, brightness, blur)
+        self.raster(name, picture.convert("RGBA"), x, y, opacity, blend)
+        if (x, y, w, h) == (0, 0, self.width, self.height):
+            self.layers[-1]["full"] = True
+
+    def overlay(self, stops, angle=90, radial=False, name="Overlay", box=None):
+        """A gradient with see-through colours ("#RRGGBBAA"), for darkening a photo behind text."""
+        self.gradient(stops, angle, radial, name, box)
+
+    def glow(self, x, y, w, h, color, opacity=1.0, name="Glow"):
+        """A soft round light: the colour fades out towards the edge of the box."""
+        base = color.lstrip("#")[:6]
+        self.gradient([("#" + base + "ff", 0), ("#" + base + "00", 1)], radial=True, name=name, box=(x, y, w, h))
+        self.layers[-1]["opacity"] = opacity
+
+    def vignette(self, strength=0.7, name="Vignette"):
+        """Dark edges, so the eye goes to the middle."""
+        a = format(round(255 * strength), "02x")
+        self.gradient([("#00000000", 0.45), ("#000000" + a, 1.0)], radial=True, name=name)
+
+    def arrow(self, start, end, color="#ff2d2d", width=34, outline="#ffffff", outline_width=6, name="Arrow",
+              shadow=(6, 8, 10, 0.55)):
+        picture = effects_mod.arrow((self.width, self.height), start, end, color, width, outline, outline_width)
+        if shadow:
+            dx, dy, blur, strength = shadow
+            self._add("Shadow: " + name, effects_mod.shadow_of(picture, dx, dy, blur, opacity=strength), None, 1.0)
+        self._add(name, picture, None, 1.0)

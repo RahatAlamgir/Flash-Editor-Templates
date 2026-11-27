@@ -3,3 +3,4 @@ desktop.ini
 *.tmp
 *.bak
 __pycache__/
+tools/make_templates/assets/cache/

@@ -12,7 +12,7 @@ PREVIEW_SIZE = 480
 
 def _webp(image):
     buffer = io.BytesIO()
-    image.save(buffer, "WEBP", lossless=True, quality=100, method=6)
+    image.save(buffer, "WEBP", lossless=True, quality=100, method=3)
     return buffer.getvalue()
 
 

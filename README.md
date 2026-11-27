@@ -14,6 +14,7 @@ Templates for [Flash Editor](https://github.com/RahatAlamgir/Flash-Editor), down
     keywords.json         the preferred search keywords (English)
     catalog.json          the list the app reads (made by a script)
     tools/make_templates/ the Python tool that makes template files from design scripts (see its README)
+                          photos are public domain / CC0 from Wikimedia Commons; credits are in each catalog entry
     CHANGELOG.md          what changed in this repository
 
 Empty folders hold a `.gitkeep` file so Git keeps them.
@@ -38,3 +39,10 @@ Empty folders hold a `.gitkeep` file so Git keeps them.
 | youtube-thumbnail | Match Highlights (1 page, 1280x720) | sports, dark, red, modern |
 | youtube-thumbnail | Tech Review (1 page, 1280x720) | tech, dark, modern, gaming |
 | youtube-thumbnail | Travel Diary (1 page, 1280x720) | travel, summer, holiday, colorful |
+| youtube-thumbnail | Burger Challenge (1 page, 1280x720, photo) | food, red, dark, colorful |
+| youtube-thumbnail | Hidden Lake Vlog (1 page, 1280x720, photo) | travel, holiday, simple, modern |
+| youtube-thumbnail | Match Day Live (1 page, 1280x720, photo) | sports, dark, red, modern |
+| youtube-thumbnail | Pizza Taste Test (1 page, 1280x720, photo) | food, red, colorful, simple |
+| youtube-thumbnail | Space Gamer (1 page, 1280x720, photo) | gaming, dark, tech, modern |
+| youtube-thumbnail | Summer Vibes (1 page, 1280x720, photo) | summer, travel, holiday, colorful |
+| youtube-thumbnail | Tech Review Pro (1 page, 1280x720, photo) | tech, dark, modern, gaming |

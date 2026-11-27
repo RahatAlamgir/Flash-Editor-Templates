@@ -20,7 +20,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 from designs import all_designs  # noqa: E402
-from fe import writer  # noqa: E402
+from fe import assets, writer  # noqa: E402
 
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 RUST = os.environ.get("FE_RUST_DIR", r"D:\AiBuild\Flash Editor Rust")
@@ -30,11 +30,15 @@ def ensure_catalog_entry(catalog, meta, page):
     for entry in catalog["templates"]:
         if entry["id"] == meta["id"] and entry["type"] == meta["type"]:
             entry["name"], entry["keywords"] = meta["name"], meta["keywords"]
+            if meta.get("photos"):
+                entry["credits"] = assets.credits_for(meta["photos"])
             return
+    credits = assets.credits_for(meta["photos"]) if meta.get("photos") else []
     catalog["templates"].append({
         "id": meta["id"], "type": meta["type"], "name": meta["name"], "keywords": meta["keywords"], "pages": 1,
         "width": page.width, "height": page.height, "bytes": 0, "sha256": "",
         "added": datetime.date.today().isoformat(),
+        **({"credits": credits} if credits else {}),
     })
 
 

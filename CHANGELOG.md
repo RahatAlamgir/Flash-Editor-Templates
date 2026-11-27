@@ -8,6 +8,17 @@ Changes to the template repository, newest first. (The app's own change log is i
   inside `template.fe`), so the app shows the **Animation** tab (slide transitions, slideshow) when one is opened. The files
   were rebuilt, so `bytes` and `sha256` in `catalog.json` changed. Nothing else changed.
 
+## 2026-11-27 · Photo thumbnails
+
+- **7 new photo-based YouTube thumbnails (1280x720):** space-gamer, tech-review-pro, burger-challenge, hidden-lake-vlog,
+  summer-vibes, match-day-live, pizza-taste-test. Real photos with dark overlays, big outlined titles with shadows,
+  labels, badges and arrows.
+- **Photos are public domain or CC0** from Wikimedia Commons (NASA/ESA, Pixel.la, Len Rizzi, Kurt Kaiser and others).
+  The source, author and licence of each are in the `credits` list of its entry in `catalog.json`, and in
+  `tools/make_templates/assets/credits.json`. The photo is baked into the layer, so each file is about 1.1 to 1.7 MB.
+- **Tool:** `make_templates` can now place photos, see-through gradient overlays, glow, vignette, arrows and text
+  shadows. Photos are fetched with `python fetch_assets.py` (not stored in Git).
+
 ## 2026-11-27 · YouTube thumbnails and the template maker
 
 - **7 new YouTube thumbnail templates (1280x720):** gaming-channel, tech-review, daily-vlog, how-to-tutorial,
