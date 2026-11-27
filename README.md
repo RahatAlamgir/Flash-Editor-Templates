@@ -13,7 +13,8 @@ Templates for [Flash Editor](https://github.com/RahatAlamgir/Flash-Editor), down
     types.json            the project types and their sizes
     keywords.json         the preferred search keywords (English)
     catalog.json          the list the app reads (made by a script)
-    tools/                scripts that build the catalog (not written yet)
+    tools/                (empty) the catalog and pictures are built by the `build_templates` tool of the Flash Editor project
+    CHANGELOG.md          what changed in this repository
 
 Empty folders hold a `.gitkeep` file so Git keeps them.
 

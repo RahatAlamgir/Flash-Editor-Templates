@@ -5,8 +5,9 @@
 One folder per template, inside the folder of its type:
 
     templates/<type-id>/<template-id>/
-        template.flash     the editable project (one or more pages)
-        thumb.jpg          preview shown in the browser (about 400 px wide)
+        template.fe        the editable project (one or more pages)
+        thumb.jpg          picture of page 1 on the card (480 px)
+        page-1.jpg ...     a picture of every page for the preview window (960 px); one per page
 
 Type ids and their normal sizes are in `types.json`. A template may use another size than its type's normal one.
 

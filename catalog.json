@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-11-22",
   "templates": [
     {
@@ -16,8 +16,8 @@
       "pages": 1,
       "width": 2700,
       "height": 3600,
-      "bytes": 920916,
-      "sha256": "63f512e3b64d900676ab40aaf152f9f553220b405c0cd3975db7d50ee492377f",
+      "bytes": 124163,
+      "sha256": "bedf965451a3950cbb9945fc618f832890d625b531883a6c5809d64ee837b527",
       "added": "2026-11-22"
     },
     {
@@ -34,8 +34,8 @@
       "pages": 1,
       "width": 2700,
       "height": 3600,
-      "bytes": 781830,
-      "sha256": "60fa1b2ad98dafceacac504352ef8c72c9b1ccc79767800535d5dc1d3c9dba5a",
+      "bytes": 126816,
+      "sha256": "e30ea5bf91053ea61bd44587a7f725f4b30857d51daecc98932447e4798e7bf2",
       "added": "2026-11-22"
     },
     {
@@ -51,8 +51,8 @@
       "pages": 1,
       "width": 2700,
       "height": 3600,
-      "bytes": 690347,
-      "sha256": "f3f4e2ade613ef4945a1eef4539f8ee7edf8cce3b7ff0dae18de0910784bda39",
+      "bytes": 84305,
+      "sha256": "9b8fc551ee3adc970c519b9984e5b94a605678e8add3adec4facd2dffeb08ab3",
       "added": "2026-11-22"
     },
     {
@@ -68,8 +68,8 @@
       "pages": 1,
       "width": 2700,
       "height": 3600,
-      "bytes": 1564341,
-      "sha256": "a766de75e27eac1f26cdaf8a57ba361dac372580a1647b0036f206e31e2e891b",
+      "bytes": 177852,
+      "sha256": "805797cb7371de6e5b0fb66e960bfe826f12834f0166195e2d5079cfbb3933ac",
       "added": "2026-11-22"
     },
     {
@@ -86,8 +86,8 @@
       "pages": 1,
       "width": 2700,
       "height": 3600,
-      "bytes": 2206071,
-      "sha256": "585ed24896ba9a23e5f066410a94b55d147bd13ca6975dff7ea47557a21b2d8f",
+      "bytes": 143014,
+      "sha256": "7bd885d2b32c9a191d63f2ff1ce7e677bdbc10d54795e45147a6f7ce8ef28838",
       "added": "2026-11-22"
     },
     {
@@ -104,8 +104,8 @@
       "pages": 5,
       "width": 1920,
       "height": 1080,
-      "bytes": 1472173,
-      "sha256": "26124bf0dbe8ea9c84cc62719c5544024e5b6d4a2eccf487e20a9616a273af4b",
+      "bytes": 217968,
+      "sha256": "949b4fca9592531a29c4f62003af78903a9d113c89219da09188fdf87e8437b3",
       "added": "2026-11-22"
     },
     {
@@ -122,8 +122,8 @@
       "pages": 5,
       "width": 1920,
       "height": 1080,
-      "bytes": 1453085,
-      "sha256": "a9eea8682ed4e56f65a2825823ed221c118375584cf7ad7ed33e714369f8d8b5",
+      "bytes": 235229,
+      "sha256": "e3f29c93e4aae1e93046e8dc97f91b3b6f4f8be9d16e32aade9ab19c477d26b6",
       "added": "2026-11-22"
     },
     {
@@ -140,8 +140,8 @@
       "pages": 1,
       "width": 2480,
       "height": 3508,
-      "bytes": 2438396,
-      "sha256": "d4c9673b0125151e475621d9ce5a0b5414fbc2e994dbeafcaa3591abaae1c796",
+      "bytes": 166698,
+      "sha256": "d08ae35cdcac4b4d0bd3f2f2e3c81dff8f76bc9ed2acb746045dbbdb0866d395",
       "added": "2026-11-22"
     },
     {
@@ -159,8 +159,8 @@
       "pages": 1,
       "width": 2480,
       "height": 3508,
-      "bytes": 1571701,
-      "sha256": "02021889e59dd547467459ca153be70b0231aa4c213b27e4a435983b2b536c8e",
+      "bytes": 150923,
+      "sha256": "e3280dd5259a1371193c89a771ee4bb11a78e01fb5b96575c625b1cc0317bf07",
       "added": "2026-11-22"
     }
   ],
