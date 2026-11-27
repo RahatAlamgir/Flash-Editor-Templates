@@ -8,6 +8,13 @@ Changes to the template repository, newest first. (The app's own change log is i
   inside `template.fe`), so the app shows the **Animation** tab (slide transitions, slideshow) when one is opened. The files
   were rebuilt, so `bytes` and `sha256` in `catalog.json` changed. Nothing else changed.
 
+## 2026-11-27 · Product Launch presentation
+
+- **New presentation `product-launch`** (8 slides, 1920x1080, saved as a presentation so the Animation tab shows): title,
+  agenda, big statement, three feature cards, four numbers, photo + text, roadmap, thank you. Dark with cyan / violet
+  accents; two public-domain photos (motherboard, Crab Nebula) credited in its catalog entry. About 4 MB.
+- Made by `tools/make_templates` (`designs/product_launch/`, one small file per slide). No animations are set yet.
+
 ## 2026-11-27 · Photo thumbnails
 
 - **7 new photo-based YouTube thumbnails (1280x720):** space-gamer, tech-review-pro, burger-challenge, hidden-lake-vlog,
