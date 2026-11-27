@@ -2,6 +2,20 @@
 
 Changes to the template repository, newest first. (The app's own change log is in the Flash Editor project.)
 
+## 2026-11-28 · Presentation type
+
+- The two presentation templates (business-pitch, school-project) are now saved as presentations (`"ProjectType": "presentation"`
+  inside `template.fe`), so the app shows the **Animation** tab (slide transitions, slideshow) when one is opened. The files
+  were rebuilt, so `bytes` and `sha256` in `catalog.json` changed. Nothing else changed.
+
+## 2026-11-27 · YouTube thumbnails and the template maker
+
+- **7 new YouTube thumbnail templates (1280x720):** gaming-channel, tech-review, daily-vlog, how-to-tutorial,
+  travel-diary, easy-recipe, match-highlights. All shapes and text stay editable. Nothing else changed.
+- **New tool `tools/make_templates/`** (Python): makes `template.fe` files from small design scripts, then runs the app's
+  `build_templates` tool for the pictures and catalog sizes. See its README. The first template (gaming-channel) was drawn
+  by hand in the app; the tool reproduces it to within 1 pixel, so the file layout is the same.
+
 ## 2026-11-27 · Smaller files, `.fe`, and a page preview
 
 - **File name is now `.fe`.** Every template is `template.fe` (was `template.flash`). The app no longer opens `.flash`.

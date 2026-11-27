@@ -13,7 +13,7 @@ Templates for [Flash Editor](https://github.com/RahatAlamgir/Flash-Editor), down
     types.json            the project types and their sizes
     keywords.json         the preferred search keywords (English)
     catalog.json          the list the app reads (made by a script)
-    tools/                (empty) the catalog and pictures are built by the `build_templates` tool of the Flash Editor project
+    tools/make_templates/ the Python tool that makes template files from design scripts (see its README)
     CHANGELOG.md          what changed in this repository
 
 Empty folders hold a `.gitkeep` file so Git keeps them.
@@ -31,3 +31,10 @@ Empty folders hold a `.gitkeep` file so Git keeps them.
 | presentation | School Project (5 pages, 1920x1080) | school, education, kids, project, colorful |
 | resume | Modern Resume (1 page, 2480x3508) | resume, cv, job, professional, modern |
 | resume | Classic Resume (1 page, 2480x3508) | resume, cv, job, professional, simple, minimal |
+| youtube-thumbnail | Gaming Channel (1 page, 1280x720) | gaming, dark, modern, colorful |
+| youtube-thumbnail | Daily Vlog (1 page, 1280x720) | colorful, travel, simple, holiday |
+| youtube-thumbnail | Easy Recipe (1 page, 1280x720) | food, colorful, red, simple |
+| youtube-thumbnail | How To Tutorial (1 page, 1280x720) | education, simple, minimal, tech |
+| youtube-thumbnail | Match Highlights (1 page, 1280x720) | sports, dark, red, modern |
+| youtube-thumbnail | Tech Review (1 page, 1280x720) | tech, dark, modern, gaming |
+| youtube-thumbnail | Travel Diary (1 page, 1280x720) | travel, summer, holiday, colorful |

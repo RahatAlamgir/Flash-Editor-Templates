@@ -104,8 +104,8 @@
       "pages": 5,
       "width": 1920,
       "height": 1080,
-      "bytes": 217968,
-      "sha256": "949b4fca9592531a29c4f62003af78903a9d113c89219da09188fdf87e8437b3",
+      "bytes": 217985,
+      "sha256": "3b6d1b14f673990ba05f39f7103c7fc075719bdc28ff4cc452e81aa17a93e4a2",
       "added": "2026-11-22"
     },
     {
@@ -122,8 +122,8 @@
       "pages": 5,
       "width": 1920,
       "height": 1080,
-      "bytes": 235229,
-      "sha256": "e3f29c93e4aae1e93046e8dc97f91b3b6f4f8be9d16e32aade9ab19c477d26b6",
+      "bytes": 235247,
+      "sha256": "3cfed887317e3cb233f94b5316f820e321c1f61928898ee1d5c36fa65e8a3cfc",
       "added": "2026-11-22"
     },
     {
@@ -162,6 +162,125 @@
       "bytes": 150923,
       "sha256": "e3280dd5259a1371193c89a771ee4bb11a78e01fb5b96575c625b1cc0317bf07",
       "added": "2026-11-22"
+    },
+    {
+      "id": "gaming-channel",
+      "type": "youtube-thumbnail",
+      "name": "Gaming Channel",
+      "keywords": [
+        "gaming",
+        "dark",
+        "modern",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 54612,
+      "sha256": "d87a50d5985a57f7ecf3caacd64458c0e8444e9c54f1ae522cdb9ab8ed6e2384",
+      "added": "2026-11-27"
+    },
+    {
+      "id": "daily-vlog",
+      "type": "youtube-thumbnail",
+      "name": "Daily Vlog",
+      "keywords": [
+        "colorful",
+        "travel",
+        "simple",
+        "holiday"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 83800,
+      "sha256": "5b0feb588fd133b7003c4dbca6c90023c388d91db637d9de838c20bd568126b0",
+      "added": "2026-11-27"
+    },
+    {
+      "id": "easy-recipe",
+      "type": "youtube-thumbnail",
+      "name": "Easy Recipe",
+      "keywords": [
+        "food",
+        "colorful",
+        "red",
+        "simple"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 107506,
+      "sha256": "f3a890ba6fde94db20c611e886dc143c4ea7b879a69e8357cbeb5eb15e146d84",
+      "added": "2026-11-27"
+    },
+    {
+      "id": "how-to-tutorial",
+      "type": "youtube-thumbnail",
+      "name": "How To Tutorial",
+      "keywords": [
+        "education",
+        "simple",
+        "minimal",
+        "tech"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 37028,
+      "sha256": "af68587119c5470d9194da0ae77f31d39ce1870a5e21cf43970e40ff2141b594",
+      "added": "2026-11-27"
+    },
+    {
+      "id": "match-highlights",
+      "type": "youtube-thumbnail",
+      "name": "Match Highlights",
+      "keywords": [
+        "sports",
+        "dark",
+        "red",
+        "modern"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 37728,
+      "sha256": "606fffaa8474328cf13c9032defb40e3896fb89f45b6ecffd88db3c2698491f3",
+      "added": "2026-11-27"
+    },
+    {
+      "id": "tech-review",
+      "type": "youtube-thumbnail",
+      "name": "Tech Review",
+      "keywords": [
+        "tech",
+        "dark",
+        "modern",
+        "gaming"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 119338,
+      "sha256": "e5b170f803297b6739b5396283a99cbbc04d41185f0afe784cb55e6d53675dbb",
+      "added": "2026-11-27"
+    },
+    {
+      "id": "travel-diary",
+      "type": "youtube-thumbnail",
+      "name": "Travel Diary",
+      "keywords": [
+        "travel",
+        "summer",
+        "holiday",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 1280,
+      "height": 720,
+      "bytes": 45919,
+      "sha256": "4d705a6206c09fc681ba1ae43824005985a1396140e5dd5310fb0d564e5e24b1",
+      "added": "2026-11-27"
     }
   ],
   "elements": [],
