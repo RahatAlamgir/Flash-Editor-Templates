@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-11-22",
+  "updated": "2026-11-28",
   "templates": [
     {
       "id": "summer-music-festival",
@@ -469,6 +469,41 @@
         "Crops Kansas AST 20010624.jpg - NASA, Public domain, https://commons.wikimedia.org/wiki/File:Crops_Kansas_AST_20010624.jpg",
         "Vegetable garden at Eisenhower National Historic Site with the greenhouse in the background. (dcaee63f-c8bc-4b33-9dd2-3a5ce1e05021).jpg - Mary O'Neill, Public domain, https://commons.wikimedia.org/wiki/File:Vegetable_garden_at_Eisenhower_National_Historic_Site_with_the_greenhouse_in_the_background._(dcaee63f-c8bc-4b33-9dd2-3a5ce1e05021).jpg"
       ]
+    },
+    {
+      "id": "corporate-agile-project-workflow",
+      "type": "presentation",
+      "name": "Corporate Agile Project Workflow",
+      "keywords": [
+        "corporate",
+        "job",
+        "professional",
+        "project",
+        "workflow"
+      ],
+      "pages": 10,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1469863,
+      "sha256": "a4c1b6fb131265e9c5a66a07f78ac512a83915bf7e48263a3e01b65d93d0acd1",
+      "added": "2026-11-28"
+    },
+    {
+      "id": "orange-and-white-modern-business",
+      "type": "presentation",
+      "name": "Orange and White Modern Business",
+      "keywords": [
+        "business",
+        "corporate",
+        "modern",
+        "professional"
+      ],
+      "pages": 10,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 12708297,
+      "sha256": "790c7e6c9d80ee770f5fee40ab94f57a655ccdbd54c5d10777254f4a429e9605",
+      "added": "2026-11-28"
     }
   ],
   "elements": [],

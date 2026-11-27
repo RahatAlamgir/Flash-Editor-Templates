@@ -2,6 +2,11 @@
 
 Changes to the template repository, newest first. (The app's own change log is in the Flash Editor project.)
 
+## 2026-11-28 · Imported templates
+
+- **New presentation template `corporate-agile-project-workflow`** (10 pages, 1920x1080): Corporate Agile Project Workflow.
+- **New presentation template `orange-and-white-modern-business`** (10 pages, 1920x1080): Orange and White Modern Business.
+
 ## 2026-11-28 · Presentation type
 
 - The two presentation templates (business-pitch, school-project) are now saved as presentations (`"ProjectType": "presentation"`
