@@ -31,6 +31,7 @@ Empty folders hold a `.gitkeep` file so Git keeps them.
 | presentation | Business Pitch (5 pages, 1920x1080) | business, corporate, startup, modern, minimal |
 | presentation | School Project (5 pages, 1920x1080) | school, education, kids, project, colorful |
 | presentation | Product Launch (8 pages, 1920x1080, photos) | business, tech, startup, modern, dark, corporate |
+| presentation | Smart Farming (8 pages, 1920x1080, photos) | agriculture, farm, green, education, modern, project |
 | resume | Modern Resume (1 page, 2480x3508) | resume, cv, job, professional, modern |
 | resume | Classic Resume (1 page, 2480x3508) | resume, cv, job, professional, simple, minimal |
 | youtube-thumbnail | Gaming Channel (1 page, 1280x720) | gaming, dark, modern, colorful |

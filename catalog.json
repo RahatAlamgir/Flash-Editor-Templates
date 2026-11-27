@@ -444,6 +444,31 @@
         "Computer-motherboard-pc-wires (23698613303).jpg - www.Pixel.la Free Stock Photos, CC0, https://commons.wikimedia.org/wiki/File:Computer-motherboard-pc-wires_(23698613303).jpg",
         "Crab Nebula, as Seen by Herschel and Hubble.jpg - ESA/Herschel/PACS/MESS Key Programme Supernova Remnant Team; NASA, ESA and Allison Loll/Jeff Hester (Arizona State University), Public domain, https://commons.wikimedia.org/wiki/File:Crab_Nebula,_as_Seen_by_Herschel_and_Hubble.jpg"
       ]
+    },
+    {
+      "id": "smart-farming",
+      "type": "presentation",
+      "name": "Smart Farming",
+      "keywords": [
+        "agriculture",
+        "farm",
+        "green",
+        "education",
+        "modern",
+        "project"
+      ],
+      "pages": 8,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 6185270,
+      "sha256": "84c076c4a2e40c5723536dfe743f1d353120022fa53faccac0dc0f9bd8006928",
+      "added": "2026-11-27",
+      "credits": [
+        "Wheat field sunset (Unsplash).jpg - Erik-Jan Leusink ejleusink, CC0, https://commons.wikimedia.org/wiki/File:Wheat_field_sunset_(Unsplash).jpg",
+        "Tractor fertilizing a field in Brittany.jpg - PtiBzh, CC0, https://commons.wikimedia.org/wiki/File:Tractor_fertilizing_a_field_in_Brittany.jpg",
+        "Crops Kansas AST 20010624.jpg - NASA, Public domain, https://commons.wikimedia.org/wiki/File:Crops_Kansas_AST_20010624.jpg",
+        "Vegetable garden at Eisenhower National Historic Site with the greenhouse in the background. (dcaee63f-c8bc-4b33-9dd2-3a5ce1e05021).jpg - Mary O'Neill, Public domain, https://commons.wikimedia.org/wiki/File:Vegetable_garden_at_Eisenhower_National_Historic_Site_with_the_greenhouse_in_the_background._(dcaee63f-c8bc-4b33-9dd2-3a5ce1e05021).jpg"
+      ]
     }
   ],
   "elements": [],

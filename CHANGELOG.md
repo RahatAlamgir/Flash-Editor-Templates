@@ -8,6 +8,14 @@ Changes to the template repository, newest first. (The app's own change log is i
   inside `template.fe`), so the app shows the **Animation** tab (slide transitions, slideshow) when one is opened. The files
   were rebuilt, so `bytes` and `sha256` in `catalog.json` changed. Nothing else changed.
 
+## 2026-11-27 · Smart Farming presentation
+
+- **New presentation `smart-farming`** (8 slides, 1920x1080, saved as a presentation): title, agenda, goal, three
+  challenges, smart tools, numbers, a year on the farm, thank you. Deep green with lime and golden accents. Four
+  public-domain / CC0 photos (wheat at sunset, tractor, satellite crop map, greenhouse), credited in its catalog entry.
+  About 6 MB. Made by `tools/make_templates` (`designs/smart_farming/`).
+- New keywords in `keywords.json`: agriculture, farm, green.
+
 ## 2026-11-27 · Product Launch presentation
 
 - **New presentation `product-launch`** (8 slides, 1920x1080, saved as a presentation so the Animation tab shows): title,

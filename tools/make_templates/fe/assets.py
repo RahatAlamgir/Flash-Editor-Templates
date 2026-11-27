@@ -22,6 +22,11 @@ ASSETS = {
     "lake": "Lake Mountain Landscape.jpg",
     "beach": "Ginowan Tropical Beach.JPG",
     "stadium": "Telstra Stadium at Night.jpg",
+    "wheat": "Wheat field sunset (Unsplash).jpg",
+    "tractor": "Tractor fertilizing a field in Brittany.jpg",
+    "satellite": "Crops Kansas AST 20010624.jpg",
+    "greenhouse": "Vegetable garden at Eisenhower National Historic Site with the greenhouse in the background. "
+                  "(dcaee63f-c8bc-4b33-9dd2-3a5ce1e05021).jpg",
 }
 
 
