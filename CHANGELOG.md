@@ -6,12 +6,23 @@ Changes to the template repository, newest first. (The app's own change log is i
 
 - **New presentation template `corporate-agile-project-workflow`** (10 pages, 1920x1080): Corporate Agile Project Workflow.
 - **New presentation template `orange-and-white-modern-business`** (10 pages, 1920x1080): Orange and White Modern Business.
+- **New poster template `yellow-white-and-blue-modern-business`** (11 pages, 1920x1080): Yellow White and Blue Modern Business.
 
 ## 2026-11-28 · Presentation type
 
 - The two presentation templates (business-pitch, school-project) are now saved as presentations (`"ProjectType": "presentation"`
   inside `template.fe`), so the app shows the **Animation** tab (slide transitions, slideshow) when one is opened. The files
   were rebuilt, so `bytes` and `sha256` in `catalog.json` changed. Nothing else changed.
+
+## 2026-11-28 · Card templates
+
+- **7 new card templates (1050x600, also the size of a business card):** business-card-modern, business-card-minimal,
+  birthday-card, wedding-invitation, thank-you-card, new-year-card, eid-mubarak-card. Text and shapes stay editable.
+- **Five public-domain / CC0 photos** (white roses, pink dahlia, fireworks, mosque at sunset, birthday cake), credited in
+  each catalog entry. The card type had no templates before.
+- New keywords in `keywords.json`: eid, elegant, floral, invitation, thank you.
+- `tools/make_templates` learned italic fonts (Georgia, Palatino, Segoe UI, Arial, Times New Roman), the Segoe Script
+  font, real letter-spacing and a crescent-moon picture.
 
 ## 2026-11-27 · Smart Farming presentation
 

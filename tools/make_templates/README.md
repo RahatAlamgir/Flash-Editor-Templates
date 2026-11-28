@@ -48,6 +48,9 @@ can be rotated (`rotation=` degrees) and made see-through (`opacity=`). Impact l
 
 ## Limits
 
-* Only the shapes listed above, fills (no borders), and Windows fonts (the app finds fonts by name).
+* Only the shapes listed above, fills (no borders), and fonts every Windows PC has (the app finds fonts by name): Segoe UI,
+  Arial, Impact, Georgia, Palatino Linotype, Times New Roman, Segoe Script, Segoe Print and a few more. `italic=True`
+  works for families that have an italic file. `letter_spacing=` (percent of the font size) spaces capitals out.
+* `page.crescent(...)` draws a crescent moon as a picture layer.
 * Photos become plain picture layers (not frames), and shadows, glow and arrows are baked pictures. Groups, effects and animations are not made by this tool. Open the template in the app to add them.
 * Text and shapes stay editable in the app; the layer picture is a cached drawing that the app redraws when edited.

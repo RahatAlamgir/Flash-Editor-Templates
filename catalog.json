@@ -484,8 +484,8 @@
       "pages": 10,
       "width": 1920,
       "height": 1080,
-      "bytes": 1469863,
-      "sha256": "a4c1b6fb131265e9c5a66a07f78ac512a83915bf7e48263a3e01b65d93d0acd1",
+      "bytes": 1470748,
+      "sha256": "2b80746883e56e963b4dec899ec01ae02df09f08ffad8e17531fb0352242782e",
       "added": "2026-11-28"
     },
     {
@@ -501,9 +501,167 @@
       "pages": 10,
       "width": 1920,
       "height": 1080,
-      "bytes": 12708297,
-      "sha256": "790c7e6c9d80ee770f5fee40ab94f57a655ccdbd54c5d10777254f4a429e9605",
+      "bytes": 12704746,
+      "sha256": "0c786c32f78158763cb8b1b559f893d1e643791e8dbaecb08ce4f10fd21ad392",
       "added": "2026-11-28"
+    },
+    {
+      "id": "yellow-white-and-blue-modern-business",
+      "type": "poster",
+      "name": "Yellow White and Blue Modern Business",
+      "keywords": [
+        "business",
+        "corporate",
+        "modern",
+        "yellow"
+      ],
+      "pages": 11,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 47467202,
+      "sha256": "5e9734ee35f23f45e4dd57b3d04e2f5584498a1957988cb7feab6d68ad6b6c8f",
+      "added": "2026-11-28"
+    },
+    {
+      "id": "birthday-card",
+      "type": "card",
+      "name": "Birthday Wish",
+      "keywords": [
+        "birthday",
+        "party",
+        "dark",
+        "gift",
+        "colorful"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 422449,
+      "sha256": "1118dbe29da543f31aead20a930b4c71195390bbc05065c609e63c3baf29ac62",
+      "added": "2026-11-28",
+      "credits": [
+        "Birthday Cake with Candles (Unsplash M20ylqCzSZw).jpg - Annie Spratt anniespratt, CC0, https://commons.wikimedia.org/wiki/File:Birthday_Cake_with_Candles_(Unsplash_M20ylqCzSZw).jpg"
+      ]
+    },
+    {
+      "id": "business-card-minimal",
+      "type": "card",
+      "name": "Business Card Minimal",
+      "keywords": [
+        "business",
+        "minimal",
+        "simple",
+        "professional",
+        "gold"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 43857,
+      "sha256": "8234818a806a17879a5a2208c937ec176882c5bdce9b6621a46dcee2a6ea70a9",
+      "added": "2026-11-28"
+    },
+    {
+      "id": "business-card-modern",
+      "type": "card",
+      "name": "Business Card Modern",
+      "keywords": [
+        "business",
+        "modern",
+        "dark",
+        "professional",
+        "corporate"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 121129,
+      "sha256": "a5f908cd71ad351d58c85142e25e3b289802a1d74c9e1f18914051ec34264e8d",
+      "added": "2026-11-28"
+    },
+    {
+      "id": "eid-mubarak-card",
+      "type": "card",
+      "name": "Eid Mubarak",
+      "keywords": [
+        "eid",
+        "holiday",
+        "gold",
+        "green",
+        "elegant"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 670912,
+      "sha256": "b7a2409b037594d000bab25376b5dc2c3d8718ac9c1607bfe138e16befe1b4aa",
+      "added": "2026-11-28",
+      "credits": [
+        "Mosque at sunset in Dubai.jpg - MarianaSui, CC0, https://commons.wikimedia.org/wiki/File:Mosque_at_sunset_in_Dubai.jpg"
+      ]
+    },
+    {
+      "id": "new-year-card",
+      "type": "card",
+      "name": "New Year Sparkle",
+      "keywords": [
+        "new year",
+        "party",
+        "gold",
+        "dark",
+        "holiday"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 1347654,
+      "sha256": "ecb2cff7f81594801becdd5ce101148403df067ece701e2c45349738db0d289e",
+      "added": "2026-11-28",
+      "credits": [
+        "Bratislava New Year Fireworks.jpg - Ondrejk, Public domain, https://commons.wikimedia.org/wiki/File:Bratislava_New_Year_Fireworks.jpg"
+      ]
+    },
+    {
+      "id": "thank-you-card",
+      "type": "card",
+      "name": "Thank You Bloom",
+      "keywords": [
+        "thank you",
+        "floral",
+        "elegant",
+        "gift",
+        "simple"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 893281,
+      "sha256": "1ea9d88fe9b0197525b886a55f9211eb6fd0b17eddacca111f377262cd54e2ab",
+      "added": "2026-11-28",
+      "credits": [
+        "Close-up of Pink dahlia flower.jpg - AlmightyWorm, CC0, https://commons.wikimedia.org/wiki/File:Close-up_of_Pink_dahlia_flower.jpg"
+      ]
+    },
+    {
+      "id": "wedding-invitation",
+      "type": "card",
+      "name": "Wedding Invitation",
+      "keywords": [
+        "wedding",
+        "elegant",
+        "floral",
+        "invitation",
+        "gold"
+      ],
+      "pages": 1,
+      "width": 1050,
+      "height": 600,
+      "bytes": 702301,
+      "sha256": "f30aa0f89af77f7d49f1e3f27f9afcc6332dbdaada5154b28c224317648d72cc",
+      "added": "2026-11-28",
+      "credits": [
+        "White roses, Hochzeitsgarten, Idstein.jpg - Gerda Arendt, CC0, https://commons.wikimedia.org/wiki/File:White_roses,_Hochzeitsgarten,_Idstein.jpg"
+      ]
     }
   ],
   "elements": [],

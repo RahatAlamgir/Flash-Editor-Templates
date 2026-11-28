@@ -71,14 +71,15 @@ class Page:
         self._add(name or str(kind).title(), self._paste(picture, x, y, rotation), obj, opacity)
 
     def text(self, text, x, y, size, color, family="Segoe UI", bold=True, width=None, align="left", rotation=0,
-             name=None, opacity=1.0, outline=0, outline_color="#000000", letter_spacing=0, shadow=None):
+             name=None, opacity=1.0, outline=0, outline_color="#000000", letter_spacing=0, shadow=None, italic=False):
         """x, y: top-left of the text box. shadow: (dx, dy, blur, opacity) adds a soft shadow layer under the text. width: box width (default: just fits; give it with align="center")."""
-        auto_w, box_h = text_mod.measure(text, family, size, bold, letter_spacing)
+        auto_w, box_h = text_mod.measure(text, family, size, bold, letter_spacing, italic)
         box_w = width or auto_w
-        picture, pad = text_mod.draw(text, family, size, bold, color, box_w, box_h, align, outline, outline_color)
+        picture, pad = text_mod.draw(text, family, size, bold, color, box_w, box_h, align, outline, outline_color,
+                                     letter_spacing, italic)
         obj = {
             "kind": "text", "Text": text, "FontFamily": family, "FontSize": size, "Color": to_json(color),
-            "Bold": bool(bold and has_real_bold(family)), "Italic": False, "Align": text_mod.ALIGN[align],
+            "Bold": bool(bold and has_real_bold(family)), "Italic": bool(italic), "Align": text_mod.ALIGN[align],
             "OutlineWidth": outline, "LineSpacing": 1, "Arc": 0, "LetterSpacing": letter_spacing, "WordSpacing": 0,
             "Box": _box(x, y, box_w, box_h, rotation), "FlipX": False, "FlipY": False, "BlurAmount": 0,
         }
@@ -124,3 +125,10 @@ class Page:
             dx, dy, blur, strength = shadow
             self._add("Shadow: " + name, effects_mod.shadow_of(picture, dx, dy, blur, opacity=strength), None, 1.0)
         self._add(name, picture, None, 1.0)
+
+    def crescent(self, x, y, size, color, rotation=0, name="Crescent", opacity=1.0, thickness=0.27):
+        """A crescent moon (a picture layer), top-left at (x, y), turned by `rotation` degrees around its middle."""
+        picture = effects_mod.crescent(size, color, thickness)
+        if rotation:
+            picture = picture.rotate(-rotation, resample=Image.BICUBIC, expand=True)
+        self.raster(name, picture, x - (picture.width - size) / 2, y - (picture.height - size) / 2, opacity)

@@ -48,3 +48,18 @@ def arrow(size, start, end, color, width, outline="#ffffff", outline_width=0):
     for poly in (shaft, tip):
         d.polygon([(x * s, y * s) for x, y in poly], fill=rgba(color))
     return big.resize((w, h), Image.LANCZOS)
+
+
+def crescent(size, color, thickness=0.27):
+    """A crescent moon picture (size x size, the horns pointing up-right): a full circle with a shifted circle cut out."""
+    s = 3
+    big = size * s
+    outer = Image.new("L", (big, big), 0)
+    ImageDraw.Draw(outer).ellipse([0, 0, big - 1, big - 1], fill=255)
+    cut = Image.new("L", (big, big), 0)
+    shift = big * thickness
+    ImageDraw.Draw(cut).ellipse([shift, -big * 0.06 + big * 0.02, shift + big * 0.92, big * 0.86], fill=255)
+    mask = ImageChops.subtract(outer, cut).resize((size, size), Image.LANCZOS)
+    picture = Image.new("RGBA", (size, size), rgba(color))
+    picture.putalpha(mask)
+    return picture

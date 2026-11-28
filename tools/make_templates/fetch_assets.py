@@ -11,6 +11,8 @@ import json
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -24,8 +26,17 @@ HEADERS = {"User-Agent": "flash-editor-templates-asset-fetch/1.0"}
 WIDTH = 2400
 
 
-def fetch(url):
-    return urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=120).read()
+def fetch(url, tries=6):
+    """Download a URL. Wikimedia answers "429 Too Many Requests" when asked too fast: wait and try again."""
+    for attempt in range(tries):
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=120).read()
+        except urllib.error.HTTPError as error:
+            if error.code != 429 or attempt == tries - 1:
+                raise
+            wait = int(error.headers.get("Retry-After", 0) or 0) or 8 * (attempt + 1)
+            print(f"  (asked too fast, waiting {wait} s)")
+            time.sleep(wait)
 
 
 def info(title):
@@ -42,8 +53,17 @@ def plain(html):
 
 def main(force):
     os.makedirs(assets.CACHE, exist_ok=True)
+    known = {}
+    if os.path.isfile(assets.CREDITS) and not force:
+        with open(assets.CREDITS, encoding="utf-8") as f:
+            known = json.load(f)
     credits = {}
     for key, title in assets.ASSETS.items():
+        path = assets.cache_path(key)
+        if not force and os.path.isfile(path) and known.get(key, {}).get("title") == title:
+            credits[key] = known[key]      # already downloaded and its licence was checked: no need to ask again
+            print(f"{key}: already there")
+            continue
         meta = info(title)
         extra = meta["extmetadata"]
         license_name = extra.get("LicenseShortName", {}).get("value", "?")

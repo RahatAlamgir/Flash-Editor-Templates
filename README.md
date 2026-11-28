@@ -28,6 +28,7 @@ Empty folders hold a `.gitkeep` file so Git keeps them.
 | poster | Art Exhibition (1 page, 2700x3600) | art, gallery, minimal, modern |
 | poster | Back to School (1 page, 2700x3600) | school, education, kids, colorful |
 | poster | New Year Party (1 page, 2700x3600) | new year, party, holiday, dark, gold |
+| poster | Yellow White and Blue Modern Business (11 pages, 1920x1080) | business, corporate, modern, yellow |
 | presentation | Business Pitch (5 pages, 1920x1080) | business, corporate, startup, modern, minimal |
 | presentation | School Project (5 pages, 1920x1080) | school, education, kids, project, colorful |
 | presentation | Product Launch (8 pages, 1920x1080, photos) | business, tech, startup, modern, dark, corporate |
@@ -36,6 +37,13 @@ Empty folders hold a `.gitkeep` file so Git keeps them.
 | presentation | Orange and White Modern Business (10 pages, 1920x1080) | business, corporate, modern, professional |
 | resume | Modern Resume (1 page, 2480x3508) | resume, cv, job, professional, modern |
 | resume | Classic Resume (1 page, 2480x3508) | resume, cv, job, professional, simple, minimal |
+| card | Birthday Wish (1 page, 1050x600, photo) | birthday, party, dark, gift, colorful |
+| card | Business Card Minimal (1 page, 1050x600) | business, minimal, simple, professional, gold |
+| card | Business Card Modern (1 page, 1050x600) | business, modern, dark, professional, corporate |
+| card | Eid Mubarak (1 page, 1050x600, photo) | eid, holiday, gold, green, elegant |
+| card | New Year Sparkle (1 page, 1050x600, photo) | new year, party, gold, dark, holiday |
+| card | Thank You Bloom (1 page, 1050x600, photo) | thank you, floral, elegant, gift, simple |
+| card | Wedding Invitation (1 page, 1050x600, photo) | wedding, elegant, floral, invitation, gold |
 | youtube-thumbnail | Gaming Channel (1 page, 1280x720) | gaming, dark, modern, colorful |
 | youtube-thumbnail | Daily Vlog (1 page, 1280x720) | colorful, travel, simple, holiday |
 | youtube-thumbnail | Easy Recipe (1 page, 1280x720) | food, colorful, red, simple |
